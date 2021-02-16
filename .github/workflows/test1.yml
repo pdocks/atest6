@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo hi1
+        echo hi2
