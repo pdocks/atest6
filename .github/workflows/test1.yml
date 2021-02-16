@@ -1,9 +1,8 @@
 name: Test1
-on:
-  workflow_dispatch:
+on: [pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo hi1
+        echo hi2
