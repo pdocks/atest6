@@ -1,0 +1,10 @@
+name: Test1
+  on:
+    workflow_dispatch:
+  jobs:
+    test:
+      name: Fetch
+      runs-on: ubuntu-latest
+      steps:
+       - run: |
+         echo hi1 
